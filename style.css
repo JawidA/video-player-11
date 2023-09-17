@@ -150,7 +150,12 @@ body {
     }
 
     .volume-range {
-        width: 40px;
+        width: 60px;
+        height: 4px;
+    }
+
+    .progress-range {
+        height: 4px;
     }
 
     .speed-contaner {
