@@ -22,10 +22,11 @@ body {
     max-width: 97%;
     width: 1300px;
     position: relative;
+    display: flex;
 }
 
 .player .video {
-    width: 100%;
+    width: 100%;    
     height: auto;
 }
 
