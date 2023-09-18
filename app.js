@@ -1,4 +1,4 @@
-const playerA = document.querySelector('.player');
+    const playerA = document.querySelector('.player');
 const video = document.querySelector('video');
 const progressRange = document.querySelector('.progress-range');
 const progressBar = document.querySelector('.progress-ind');
@@ -88,6 +88,8 @@ function changeVolume (e) {
 
     volumeBar.style.width = `${val}%`;
     video.volume = val / 100;
+
+    if (video.muted) video.muted = false;
 };
 
 
